@@ -2,6 +2,7 @@
     <head>
         <link href="style.css" rel="stylesheet">
         <link href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" rel="stylesheet"/>
+        <script src="script.js"></script>
     </head>
     <body>
         <div id="top">
@@ -21,19 +22,24 @@
             </div>
             
             <div id="profile_info">
-                <div id="id">shy_musket<i class="fas fa-cog"></i></div>
+                <div id="id">
+                    <span>shy_musket</span>
+                    <i class="fas fa-cog"></i>
+                </div>
                 <button>프로필 편집</button>
             </div>
         </div>
         <div>
             <p>
-                <strong>
+                <strong id="userInfo">
                     김청도(Chung-do Kim)
                 </strong><br/>
+                <span id="summary">
+                    개발자
+                </span>
                 
-                개발자
             </p>
-            <p>
+            <p id="profileDetail">
                 <a href="https://github.com/kimchungdo">github.com/kimchungdo</a>
             </p>
         </div>
